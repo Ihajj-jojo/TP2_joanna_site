@@ -1,0 +1,120 @@
+/* ///////////////////////////////////// .menu */
+.navigation__bouton {
+    display: inline-block;
+    position: fixed;
+    top: -3%;
+    right: -2%;
+    transition: transform .2s ease-in-out;
+z-index: 2;
+}
+
+.navigation__bouton:hover {
+    transform: rotate(360deg);
+}
+
+.navigation,
+#chk-burger {
+    display: none;
+    position: fixed;
+    top: 7%;
+    right: 1%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(210, 177, 107);
+    border-radius: 20px;
+    height: 570px;
+    width: 200px;
+    font-size: 2rem;
+    padding: 10px;
+    font-family: "Yomogi";
+    font-weight: bold;
+    text-align: center;
+}
+
+#chk-burger:checked~.navigation {
+    display: block;
+}
+
+.navigation nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    transition: transform .3s ease-in-out;
+    color: rgb(210, 177, 107);
+    margin-top: 10px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.navigation a:hover {
+    transform: scale(1.5);
+    color: rgb(114, 74, 19);
+}
+
+.hero__bouton {
+    text-decoration: none;
+    display: inline-block;
+    background-color: antiquewhite;
+    font-size: 40px;
+    display: block;
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+    font-family: "Yomogi";
+    font-weight: bold;
+    color: rgb(210, 177, 107);
+    transition: transform .2s ease-in-out;
+    border-radius: 20px;
+}
+
+.hero__bouton:hover {
+    transform: scale(1.5);
+    background-color: rgb(99, 85, 57);
+}
+
+#chk-burger:checked ~ .menu {
+
+/* transform: translateX(0);
+} 
+ #chk-burger{
+    display: none; /* permet de rendre un élément invisible */
+    position: fixed;
+    top:70px;
+    right: 20px;
+}
+
+.navigation{
+    display:block;
+    padding : 10px;
+    width: 200px;
+    height: 600px;
+    position: fixed;
+    top:70px;
+    right: 20px;
+    transform: translateX(110%);
+    transition : transform 1s;
+    margin-top: 100px;
+
+}
+
+.navigation{
+    position: fixed;
+    top:20px;
+    right: 20px;
+}
+
+.navigation a {
+    display : block;
+    text-decoration: none;
+    font-size: 2rem;
+    padding:3px;
+    margin:10px;
+}
+
+#chk-burger:checked ~ .navigation {
+ /* permet de rendre un élément visible */
+ transform: translateX(0);
+}
