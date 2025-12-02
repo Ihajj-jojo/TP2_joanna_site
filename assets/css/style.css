@@ -51,43 +51,43 @@ footer {
 }
 
 .conteneur:nth-of-type(2) {
-    background-image: url(assets/img/vector-seamless-pattern-retro-style-with-white-crowns-gold-background_532782-310.avif);
+    background-image: url(/assets/img/vector-seamless-pattern-retro-style-with-white-crowns-gold-background_532782-310.avif);
     background-repeat: repeat;
     background-size: 20%;
 }
 
 .conteneur:nth-of-type(3) {
-    background-image: url(assets/img/istockphoto-834314164-612x612.jpg);
+    background-image: url(/assets/img/istockphoto-834314164-612x612.jpg);
     background-repeat: repeat;
     background-size: 20%;
 }
 
 .conteneur:nth-of-type(4) {
-    background-image: url(assets/img/vector-seamless-pattern-retro-style-with-white-crowns-gold-background_532782-310.avif);
+    background-image: url(/assets/img/vector-seamless-pattern-retro-style-with-white-crowns-gold-background_532782-310.avif);
     background-repeat: repeat;
     background-size: 20%;
 }
 
 .conteneur:nth-of-type(5) {
-    background-image: url(assets/img/istockphoto-834314164-612x612.jpg);
+    background-image: url(/assets/img/istockphoto-834314164-612x612.jpg);
     background-repeat: repeat;
     background-size: 20%;
 }
 
 .conteneur:nth-of-type(6) {
-    background-image: url(assets/img/vector-seamless-pattern-retro-style-with-white-crowns-gold-background_532782-310.avif);
+    background-image: url(/assets/img/vector-seamless-pattern-retro-style-with-white-crowns-gold-background_532782-310.avif);
     background-repeat: repeat;
     background-size: 20%;
 }
 
 .conteneur:nth-of-type(7) {
-    background-image: url(assets/img/istockphoto-834314164-612x612.jpg);
+    background-image: url(/assets/img/istockphoto-834314164-612x612.jpg);
     background-repeat: repeat;
     background-size: 20%;
 }
 
 .conteneur:nth-of-type(8) {
-    background-image: url(assets/img/vector-seamless-pattern-retro-style-with-white-crowns-gold-background_532782-310.avif);
+    background-image: url(/assets/img/vector-seamless-pattern-retro-style-with-white-crowns-gold-background_532782-310.avif);
     background-repeat: repeat;
     background-size: 20%;
 }
@@ -187,7 +187,7 @@ form {
     transition: all 0.5s ease;
     position: relative;
     content: "";
-    background-image: url(assets/img/singers-koda-kumi-wallpaper-78565c6a7fece7f97ea01942f2193b00.jpg);
+    background-image: url(/assets/img/singers-koda-kumi-wallpaper-78565c6a7fece7f97ea01942f2193b00.jpg);
 
 }
 
@@ -221,7 +221,7 @@ form {
 table {
     padding: 10px;
     margin: 0 auto;
-    background-image: url(assets/img/gold-polka-dots-beige-background_53876-108414.avif);
+    background-image: url(/assets/img/gold-polka-dots-beige-background_53876-108414.avif);
 }
 
 /* ///////////////////////////////////////////////////////////// tableau .tableau */
