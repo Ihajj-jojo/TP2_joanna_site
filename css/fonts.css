@@ -1,26 +1,26 @@
 @font-face {
   font-family: hunter;
-  src: url(/TP2/assets/fonts/brown_hunter_vic/BrownHunterVic-Regular.ttf);
+  src: url(fonts/brown_hunter_vic/BrownHunterVic-Regular.ttf);
 }
 
 @font-face {
   font-family: fragment;
-  src: url(/TP2/assets/fonts/Fragmentcore.otf);
+  src: url(fonts/Fragmentcore.otf);
 }
 
 @font-face {
   font-family: mies;
-  src: url(/TP2/assets/fonts/mieszkanie9/mieszkanie9.otf);
+  src: url(fonts/mieszkanie9/mieszkanie9.otf);
 }
 
 @font-face {
   font-family: milven;
-  src: url(/TP2/assets/fonts/milven/Milven-Regular.otf);
+  src: url(fonts/milven/Milven-Regular.otf);
 }
 
 @font-face {
   font-family: sweet;
-  src: url(/TP2/assets/fonts/sweetgentle/Sweetgentle\ Free.otf);
+  src: url(fonts/sweetgentle/Sweetgentle\ Free.otf);
 }
 .ruge-boogie-regular {
   font-family: "Ruge Boogie", cursive;
