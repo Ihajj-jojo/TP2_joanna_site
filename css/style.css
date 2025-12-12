@@ -233,9 +233,6 @@ table {
     font-size:  clamp(10px, 0.1rem + 2vw, 25px);
 }
 
-.tableau img {
-    max-width: 100px;
-}
 
 .tableau th {
     border: 1px solid #aaa;
@@ -248,6 +245,9 @@ table {
     border: 1px solid #aaa;
     padding: 10px 5px;
     background-color: #ffffff6f;
+}
+.tableau figure, .tableau img{
+ max-width: 200px;
 }
 
 legend {
