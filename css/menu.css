@@ -1,11 +1,11 @@
-/* ///////////////////////////////////// .menu */
+/* ///////////////////////////////////// .menu     fond blanc par Istock                 fond clair par istock        Fond du Hero par AVEX      Menu par SVGBOX */
 .navigation__bouton {
     display: inline-block;
     position: fixed;
     top: -3%;
     right: -2%;
     transition: transform .2s ease-in-out;
-z-index: 2;
+    z-index: 2;
 }
 
 .navigation__bouton:hover {
@@ -75,43 +75,43 @@ z-index: 2;
     background-color: rgb(99, 85, 57);
 }
 
- #chk-burger{
-    display: none; 
+#chk-burger {
+    display: none;
     position: fixed;
-    top:70px;
+    top: 70px;
     right: 20px;
 }
 
-.navigation{
-    display:block;
-    padding : 10px;
+.navigation {
+    display: block;
+    padding: 10px;
     width: 200px;
     height: 600px;
     position: fixed;
-    top:70px;
+    top: 70px;
     right: 20px;
     transform: translateX(110%);
-    transition : transform 1s;
+    transition: transform 1s;
     margin-top: 100px;
 
 }
 
-.navigation{
+.navigation {
     position: fixed;
-    top:20px;
+    top: 20px;
     right: 20px;
 }
 
 .navigation a {
-    display : block;
+    display: block;
     text-decoration: none;
     font-size: 2rem;
-    padding:3px;
-    margin:10px;
+    padding: 3px;
+    margin: 10px;
 }
 
-#chk-burger:checked ~ .navigation {
- transform: translateX(0);
+#chk-burger:checked~.navigation {
+    transform: translateX(0);
 }
 
 #valider {

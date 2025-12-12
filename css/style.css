@@ -103,6 +103,7 @@ header {
     text-align: center;
     color: aliceblue;
 }
+
 header h1 {
     font-size: clamp(3rem, 0.2308rem + 9.8462vw, 7rem);
     font-family: "Ruge Boogie";
@@ -159,11 +160,15 @@ form {
 
 #inscription h1 {
     font-family: "Ruge Boogie";
-    font-size:clamp(3rem, 0.2308rem + 9.8462vw, 7rem);
+    font-size: clamp(3rem, 0.2308rem + 9.8462vw, 7rem);
 }
-.formulaire__label, .formulaire__input, .formulaire-rad{
+
+.formulaire__label,
+.formulaire__input,
+.formulaire-rad {
     font-size: clamp(7px, 0.2308rem + 2.8462vw, 20px);
 }
+
 /**/
 #valider {
     text-align: center;
@@ -230,9 +235,9 @@ table {
 .tableau {
     border-collapse: collapse;
     border: 1px solid #aaa;
-    font-size:  clamp(10px, 0.1rem + 2vw, 25px);
+    font-size: clamp(10px, 0.1rem + 2vw, 25px);
     display: table-cell;
-    
+
 }
 
 
@@ -248,8 +253,10 @@ table {
     padding: 10px 5px;
     background-color: #ffffff6f;
 }
-.tableau figure, .tableau img{
- max-width: 200px;
+
+.tableau figure,
+.tableau img {
+    max-width: 200px;
 }
 
 legend {
@@ -306,7 +313,7 @@ footer div {
     gap: 200px;
     margin: 0 auto;
     margin-top: 20px;
-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .liens {
@@ -419,7 +426,7 @@ h3 {
 
 .article_div p {
     line-height: 1.6rem;
-            font-size: clamp(7px, 0.2308px + 2.8462vw, 25px);
+    font-size: clamp(7px, 0.2308px + 2.8462vw, 25px);
 }
 
 .article_p {
@@ -431,6 +438,7 @@ h3 {
 .article:nth-of-type(odd) {
     background-color: white;
 }
+
 .h3_article {
     margin-left: 70px;
 }
