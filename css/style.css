@@ -231,6 +231,8 @@ table {
     border-collapse: collapse;
     border: 1px solid #aaa;
     font-size:  clamp(10px, 0.1rem + 2vw, 25px);
+    display: table-cell;
+    
 }
 
 
@@ -429,13 +431,6 @@ h3 {
 .article:nth-of-type(odd) {
     background-color: white;
 }
-
-figure {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 300px;
-}
-
 .h3_article {
     margin-left: 70px;
 }
