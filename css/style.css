@@ -24,9 +24,10 @@ figure {
     margin: 0;
 }
 
-img {
+.fond img,
+.footer img {
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -134,7 +135,7 @@ header p {
     font-family: "Yomogi";
     font-weight: bold;
     font-size: 20px;
-       color: rgb(48, 38, 31);
+    color: rgb(48, 38, 31);
 }
 
 #inscription {
@@ -284,7 +285,7 @@ footer div {
     display: flex;
     flex-direction: row;
     margin-left: 40px;
-    margin:  0 auto;
+    margin: 0 auto;
     margin-top: 20px;
 }
 
@@ -297,40 +298,103 @@ footer div {
     margin-top: 20px;
 
 }
-.liens{
-     display: flex;
+
+.liens {
+    display: flex;
     flex-direction: row;
     gap: 60px;
 }
-.desc{
-   font-size: 21px;
-   flex-basis: 400px;
-}
-.notice{
-position: relative;
-top: 40px;
-left: 40px;
-margin: 0 auto;
-}
-.b a{
-    text-decoration: none;
-     color: rgb(70, 57, 29);
-background-color: #ffffff;
-margin-top: 20px;
-border: 5px solid white;
-border-radius: 10px;
 
-} 
+.desc {
+    font-size: 21px;
+    flex-basis: 400px;
+}
+
+.notice {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    margin: 0 auto;
+}
+
+.b a {
+    text-decoration: none;
+    color: rgb(70, 57, 29);
+    background-color: #ffffff;
+    margin-top: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+
+}
+iframe {
+    border: #ffffff 2px solid;
+    border-radius: 10px;
+}
 /*articles */
-.article__figure{
-    flex-basis: 200px;
+.article_figure {
+    flex-basis: 400px;
     flex-shrink: 1;
     flex-grow: 0;
 }
+.article_figure {
+    flex-basis: 400px;      /* desired width box */
+    flex-shrink: 0;
+    width: 400px;
+    max-width: 100%;
+    display: block;
+}
+
+.article_figure img {
+    display: block;
+    width: 100%;
+    object-fit: cover;      /* crop/scale to fill without distortion */
+    object-position: center;
+}
+.article_p {
+    margin-top: 40px;
+    font-size: 20px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.article_div {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.article {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+/**/
+h3 {
+    font-size: 35px;
+    color: #534033;
+}
+
+figcaption {
+    background-color: #82828238;
+    font-size: 15px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    padding: 2px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+ 
+.article:nth-of-type(odd) .article_figure{
+    order: -1;
+}
+.article:nth-of-type(even) .article_figure{
+    order: 1;
+}
+ 
 .article_div{
 flex-grow: 1;
 flex-shrink: 1;
-flex-basis: 1100px;
+flex-basis: 900px;
 display:flex;
 }
 .article{
@@ -341,6 +405,10 @@ display:flex;
 iframe{
     border: #ffffff 2px solid;
     border-radius: 10px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: 600px;
+    margin: 0 auto;
 }
 .article_div p{
     line-height: 1.6rem;
@@ -351,14 +419,76 @@ iframe{
     flex-direction: column;
     margin-left: 70px;
 }
+.article:nth-of-type(odd){
+    background-color: white;
+}
 figure{
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis : 900px;
-}
-figure img {
-    display : block;
+    flex-basis : 1000px;
 }
 .h3_article{
     margin-left: 70px;
+}
+/**/
+.galerie{
+  display: flex;
+  align-items: center;     /* center the .galerie container vertically in the section */
+  justify-content: center; /* center horizontally */
+  padding: 40px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.galerie_figure{
+  flex: 1 1;
+  flex-basis: 220px;  
+  rotate: -10deg;
+    margin-top: 50px;
+    transition: transform .3s ease-in-out;
+}
+.galerie_figure:hover{
+  flex: 1 1;
+  flex-basis: 220px;  
+  rotate: -10deg;
+    margin-top: 50px;
+        transform: scale(2);
+}
+.galerie_figure:nth-of-type(odd){
+rotate: 20deg;
+}
+.galerie_figure img,
+.img_galerie {
+  width: 100%;
+}
+.galerie_figure:nth-of-type(1){
+ filter: brightness(1.1);
+}
+.galerie_figure:nth-of-type(2){
+ filter:grayscale(1);
+}
+.galerie_figure:nth-of-type(3){
+  filter: hue-rotate(20deg);
+}
+.galerie_figure:nth-of-type(4){
+ filter: drop-shadow(16px 16px 20px rgb(0, 0, 0))
+}
+.galerie_figure:nth-of-type(5){
+ filter: sepia(2);
+}
+.galerie_figure:nth-of-type(6){
+ filter: blur(2px);
+}
+.galerie_figure:nth-of-type(7){
+ filter: contrast(130%);
+}
+.galerie_figure:nth-of-type(8){
+  filter: saturate(80%);
+}
+.galerie_figure:nth-of-type(9){
+  filter: sepia(0.2);
+}
+.galerie_figure:nth-of-type(10){
+  filter: brightness(1.3);
 }
