@@ -9,7 +9,7 @@ z-index: 2;
 }
 
 .navigation__bouton:hover {
-    transform: rotate(360deg);
+    transform: rotate(-35deg) scale(1.2);
 }
 
 .navigation,
@@ -75,12 +75,8 @@ z-index: 2;
     background-color: rgb(99, 85, 57);
 }
 
-#chk-burger:checked ~ .menu {
-
-/* transform: translateX(0);
-} 
  #chk-burger{
-    display: none; /* permet de rendre un élément invisible */
+    display: none; 
     position: fixed;
     top:70px;
     right: 20px;
@@ -115,6 +111,25 @@ z-index: 2;
 }
 
 #chk-burger:checked ~ .navigation {
- /* permet de rendre un élément visible */
  transform: translateX(0);
+}
+
+#valider {
+    text-decoration: none;
+    display: inline-block;
+    background-color: antiquewhite;
+    font-size: 40px;
+    display: block;
+    height: 60px;
+    margin: 0 auto;
+    font-family: "Yomogi";
+    font-weight: bold;
+    color: rgb(210, 177, 107);
+    transition: transform .2s ease-in-out;
+    border-radius: 20px;
+}
+
+#valider:hover {
+    transform: scale(1.5);
+    background-color: rgb(99, 85, 57);
 }
