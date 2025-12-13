@@ -139,6 +139,8 @@ header p {
     color: rgb(48, 38, 31);
 }
 
+
+/* ///////////////////////////////////////////////////////////// FORUMLAIRE */
 #inscription {
     display: flex;
     flex-direction: column;
@@ -169,7 +171,7 @@ form {
     font-size: clamp(7px, 0.2308rem + 2.8462vw, 20px);
 }
 
-/**/
+
 #valider {
     text-align: center;
 }
@@ -189,7 +191,9 @@ form {
 .formulaire__input:checked+label {
     border: none;
 }
+/* ///////////////////////////////////////////////////////////// FORMULAIRE */
 
+/* ///////////////////////////////////////////////////////////// FOND HERO */
 .fond {
     filter: grayscale(100%);
     transition: all 0.5s ease;
@@ -226,12 +230,15 @@ form {
     top: 0;
 }
 
+/* ///////////////////////////////////////////////////////////// FOND HERO */
+
+
+/* ///////////////////////////////////////////////////////////// tableau .tableau */
 table {
     margin: 0 auto;
     background-image: url(https://files.catbox.moe/srey4e.avif);
 }
 
-/* ///////////////////////////////////////////////////////////// tableau .tableau */
 .tableau {
     border-collapse: collapse;
     border: 1px solid #aaa;
@@ -266,6 +273,7 @@ legend {
     margin: 0 auto;
     font-size: 50px;
 }
+/* ///////////////////////////////////////////////////////////// tableau */
 
 /* ///////////////////////////////////////////////////////////// footer */
 footer div {
@@ -349,7 +357,8 @@ footer div {
 }
 
 /* ///////////////////////////////////////////////////////////// footer */
-/*articles */
+
+/*************** section article        *************************************/
 #article {
     display: flex;
     flex-direction: column;
@@ -385,8 +394,6 @@ footer div {
     gap: 20px;
     flex-wrap: wrap;
 }
-
-/**/
 h3 {
     font-size: 35px;
     color: #534033;
@@ -443,7 +450,7 @@ h3 {
     margin-left: 70px;
 }
 
-/*articles*/
+/*************** section article        *************************************/
 
 /* galerie*/
 .galerie {
@@ -524,7 +531,8 @@ h3 {
 }
 
 /* galerie*/
-/**/
+
+/*IFRAME ****************************************/
 
 iframe {
 
@@ -542,4 +550,4 @@ iframe {
     justify-content: center;
 }
 
-/**/
+/*IFRAME ****************************************/
