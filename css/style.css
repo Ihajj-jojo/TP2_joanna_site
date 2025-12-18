@@ -19,11 +19,6 @@ h2,
 h3 {
     margin: 0;
 }
-
-figure {
-    margin: 0;
-}
-
 .fond img,
 .footer img {
     display: block;
@@ -102,6 +97,7 @@ header {
     justify-content: center;
     text-align: center;
     color: aliceblue;
+    position: relative;
 }
 
 header h1 {
