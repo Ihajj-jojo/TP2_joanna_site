@@ -230,7 +230,9 @@ form {
 
 
 /* ///////////////////////////////////////////////////////////// tableau .tableau */
+
 table {
+
     margin: 0 auto;
     background-image: url(https://files.catbox.moe/srey4e.avif);
 }
@@ -239,8 +241,6 @@ table {
     border-collapse: collapse;
     border: 1px solid #aaa;
     font-size: clamp(10px, 0.1rem + 2vw, 25px);
-    display: table-cell;
-
 }
 
 
