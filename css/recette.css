@@ -148,11 +148,10 @@ hr {
     bottom: 2%;
     right: 2%;
     transition: .2s ease-in-out;
-    z-index: 2;
-    color: #ffd000;
 }
 
 #homebouton:hover {
-    color: aqua;
+   filter: hue-rotate(90deg);
+  transition: all ease 0.3s;
 }
 /**home**/
